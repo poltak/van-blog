@@ -5,13 +5,35 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Posts
+  label: Media
+- type: directory
+  path: content/assets
+  label: assets
+  create: all
+  match: "**/*"
+- type: directory
+  path: uploads
+  label: uploads
+  create: all
+  match: "**/*"
+- type: heading
+  label: Pages
 - type: directory
   path: content/posts
   label: posts
   create: documents
   match: "**/*"
   new_doc_ext: md
+- type: heading
+  label: Settings
+- type: document
+  path: gatsby-config.js
+  label: gatsby-config.js
+  match: "**/*"
+- type: document
+  path: package.json
+  label: package.json
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
