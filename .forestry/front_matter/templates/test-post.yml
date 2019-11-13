@@ -1,4 +1,13 @@
 ---
 label: Test post
 hide_body: false
-fields: []
+fields:
+- name: main_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Main text
