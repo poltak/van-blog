@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/poltak/van-blog',
+  pathPrefix: '/van-blog',
   plugins: [
     {
       resolve: `gatsby-theme-blog`,
