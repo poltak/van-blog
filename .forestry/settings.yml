@@ -29,11 +29,9 @@ sections:
 - type: document
   path: gatsby-config.js
   label: gatsby-config.js
-  match: "**/*"
 - type: document
   path: package.json
   label: package.json
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
