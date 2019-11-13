@@ -6,7 +6,8 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "forestry:preview": "gatsby develop -H 0.0.0.0 -p 8080"
   },
   "dependencies": {
     "gatsby": "^2.17.11",
@@ -15,6 +16,7 @@
     "react-dom": "^16.11.0"
   },
   "devDependencies": {
+    "gatsby-cli": "^2.8.9",
     "gh-pages": "^2.1.1"
   }
 }
