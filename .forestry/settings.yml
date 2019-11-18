@@ -24,6 +24,13 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
+- type: directory
+  path: src/pages/posts
+  label: blog posts
+  create: documents
+  match: "**/*"
+  templates:
+  - test-post
 - type: heading
   label: Settings
 - type: document
